@@ -32,8 +32,8 @@ ul{
   }
   /* HEader */
 header{
-    background:rgb(160, 160, 160);
-    border-bottom: 3px solid rgba(223, 14, 42, 0.527);
+    background:black;
+    border-bottom: 5px solid rgba(223, 14, 42, 0.527);
 }
 header li{
   float: left;
@@ -42,10 +42,13 @@ header li{
   padding: 40px;
 }
 header a{
-  color:#ffffff;
-  text-decoration:none;
-  text-transform: uppercase;
-  font-size:16px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  //padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-transform:uppercase;
 }
 header #company{
  margin: 0;
@@ -57,6 +60,7 @@ header nav{
   float: right;
 }
 header a:hover{
+	//background-color:#ddd;
   color: rgba(255, 72, 0, 0.856);
 }
 
@@ -89,5 +93,17 @@ footer{
   background-color:rgb(160, 160, 160) ;
   text-align: center;
   padding: 10px;
-  border-top:3px solid rgba(223, 14, 42, 0.527);
+  border-top:5px solid rgba(223, 14, 42, 0.527);
+}
+footer img{
+	border-radius: 50%;
+	height:50px;
+	width:50px;
+}
+footer p,img{
+	display:inline;
+}
+footer p{
+	padding:0;
+	margin:0;
 }
